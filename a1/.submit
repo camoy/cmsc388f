@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC388F
+#  Project A1: Assignment 1
+
+courseName=CMSC388F
+semester=201901
+projectNumber=A1
+courseKey=c1a79a1f09f2a659
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2019
+submitURL=https://submit.cs.umd.edu:443/spring2019/eclipse/SubmitProjectViaEclipse
