@@ -43,8 +43,8 @@ merge xs ys = error "Define me!"
 mergeBy :: (a -> a -> Ordering) -> [a] -> [a] -> [a]
 mergeBy cmp xs ys     = error "Define me!"
 
-mergeSortBy :: (a -> a -> Ordering) -> [a] -> [a] -> [a]
-mergeSortBy cmp xs ys = error "Define me!"
+mergeSortBy :: (a -> a -> Ordering) -> [a] -> [a]
+mergeSortBy cmp xs = error "Define me!"
 
 --
 -- Section 3: Coloring
