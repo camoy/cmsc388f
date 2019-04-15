@@ -28,5 +28,5 @@ deviations' _ _ = error "define me!"
 -- Section 2: Encoding Negation in Types
 --
 
-modusTollens :: ((a -> b), (b -> Void)) -> (a -> Void)
-modusTollens _ _ = error "define me!"
+implEquiv :: (Either (p -> Void) q) -> (p -> q)
+implEquiv _ = error "define me!"
